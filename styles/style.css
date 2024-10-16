@@ -1,0 +1,90 @@
+body {
+  font-family: "Manrope", Arial, sans-serif;
+}
+
+.main {
+  width: 100%;
+}
+.main-title {
+  font-size: 60px;
+  font-weight: 400;
+  line-height: 60px;
+  letter-spacing: -0.03em;
+  text-align: left;
+  width: 956px;
+  height: 120px;
+  margin-bottom: 30px;
+}
+.block1 {
+  width: 1150px;
+  height: 650px;
+  margin: auto;
+  margin-bottom: 150px;
+}
+
+.block-text {
+  position: relative;
+  width: 1051px;
+  height: 518px;
+  border-radius: 5px 0px 0px 0px;
+}
+
+.block2 {
+  width: 1150px;
+  margin: auto;
+}
+.block-img-top {
+  position: relative;
+  background-image: url("../resources/images/img-top1.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 1150px;
+  height: 500px;
+}
+p.img-text-top1 {
+  position: absolute;
+  bottom: 0;
+  width: 430px;
+  height: 81px;
+  color: #ffffff;
+  font-size: 20px;
+  line-height: 27.32px;
+  letter-spacing: -0.03em;
+  text-align: left;
+  margin-left: 40px;
+  margin-bottom: 40px;
+}
+
+h2.text-title {
+  font-size: 45px;
+  font-weight: 400;
+  line-height: 61.47px;
+  letter-spacing: -0.03em;
+  text-align: left;
+  width: 1048px;
+  height: 366px;
+}
+
+.button1 {
+  width: Hug (255px) px;
+  height: Hug (67px) px;
+  padding: 20px 40px 20px 40px;
+  border-radius: 5px;
+  background-color: #ad1818;
+  color: #ffffff;
+  font-size: 20px;
+  position: absolute;
+  bottom: 0;
+  cursor: pointer;
+}
+
+h1.o_nas {
+  width: 51px;
+  height: 25px;
+  margin-bottom: 30px;
+  font-size: 18px;
+  line-height: 24.59px;
+  letter-spacing: -0.03em;
+  text-align: left;
+  color: #121212;
+}
