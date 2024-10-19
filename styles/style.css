@@ -15,9 +15,9 @@ body {
   height: 120px;
   margin-bottom: 30px;
 }
-.block1 {
+.block {
   width: 1150px;
-  height: 650px;
+  box-sizing: border-box;
   margin: auto;
   margin-bottom: 150px;
 }
@@ -26,13 +26,8 @@ body {
   position: relative;
   width: 1051px;
   height: 518px;
-  border-radius: 5px 0px 0px 0px;
 }
 
-.block2 {
-  width: 1150px;
-  margin: auto;
-}
 .block-img-top {
   position: relative;
   background-image: url("../resources/images/img-top1.jpg");
@@ -78,13 +73,78 @@ h2.text-title {
   cursor: pointer;
 }
 
-h1.o_nas {
-  width: 51px;
-  height: 25px;
+h1.metka {
   margin-bottom: 30px;
   font-size: 18px;
   line-height: 24.59px;
   letter-spacing: -0.03em;
   text-align: left;
+}
+
+.signature {
+  font-size: 30px;
+  line-height: 40.98px;
+  letter-spacing: -0.03em;
+  text-align: left;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.more_details {
+  font-size: 20px;
+  line-height: 27.32px;
+  letter-spacing: -0.03em;
+  text-align: left;
+  color: #ad1818;
+}
+
+.block_project {
+  margin-bottom: 90px;
+}
+
+.button2 {
+  width: 100%;
+  height: 153px;
+  background-color: #ffffff;
+  border-radius: 5px;
+  border: 1px solid #ad1818;
+  color: #ad1818;
+  font-size: 30px;
+  line-height: 40.98px;
+  letter-spacing: -0.03em;
+  text-align: center;
+}
+
+.button2:hover {
+  background-color: #ad1818;
+  color: #ffffff;
+}
+
+.black_box {
+  padding-top: 150px;
+  padding-bottom: 150px;
+  width: 100%;
+  background-color: #121212;
+}
+
+.black_section {
+  width: 100%;
+  height: 326px;
+  margin-bottom: 60px;
+}
+
+.black_section:nth-last-child(1) {
+  margin-bottom: 0px;
+}
+
+.block:nth-last-child(1) {
+  margin-bottom: 0px;
+}
+
+.c-w {
+  color: #ffffff;
+}
+
+.c-b {
   color: #121212;
 }
