@@ -1,9 +1,19 @@
-body {
-  font-family: "Manrope", Arial, sans-serif;
+html {
+  scroll-behavior: smooth;
 }
 
-.main {
+body {
+  font-family: "Manrope", Arial, sans-serif;
   width: 100%;
+  height: 100%;
+  padding-top: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.main_block {
+  width: 100%;
+  padding-top: 70px;
 }
 .main-title {
   font-size: 60px;
@@ -147,4 +157,144 @@ h1.metka {
 
 .c-b {
   color: #121212;
+}
+
+.menu {
+  width: 1150px;
+  height: 25px;
+  display: flex;
+  background-color: rgba(255, 255, 255, 0.5);
+  justify-content: space-between;
+}
+
+.logo {
+  display: inline-block;
+  align-self: flex-start;
+}
+
+.block_item {
+  display: inline-block;
+  align-self: flex-end;
+}
+
+.menu_item {
+  font-size: 18px;
+  line-height: 24.59px;
+  letter-spacing: -0.03em;
+  margin-left: 60px;
+  text-decoration: none;
+  color: #121212;
+  text-align: center;
+}
+
+.menu_item:hover {
+  color: #121212;
+  text-decoration: underline;
+  opacity: 0.5;
+}
+
+.block_menu {
+  position: fixed;
+  margin: 0;
+  z-index: 9999;
+}
+
+.room_apartament {
+  position: relative;
+  height: 717px;
+  background-image: url("../resources/images/2-room_apartment.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50%;
+}
+
+.img-text-top2 {
+  position: absolute;
+  bottom: 0;
+  color: #ffffff;
+  font-size: 30px;
+  line-height: 40.98px;
+  letter-spacing: -0.03em;
+  text-align: left;
+  margin-left: 125px;
+  margin-bottom: 60px;
+}
+
+.tele {
+  font-size: 60px;
+  color: #121212;
+  text-decoration: none;
+  line-height: 60px;
+  letter-spacing: -0.03em;
+  text-align: left;
+}
+
+.email {
+  font-size: 60px;
+  color: #121212;
+  line-height: 60px;
+  letter-spacing: -0.03em;
+  text-align: left;
+  opacity: 50%;
+}
+
+.m-c {
+  margin-top: 186px;
+  margin-bottom: 150px;
+}
+
+.befor:before {
+  content: "";
+  display: block;
+  width: 24px;
+  height: 24px;
+  background-image: url("../resources/images/icon-phone.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50%;
+  margin-bottom: 12px;
+}
+
+.menu_item1:first-child {
+  margin-left: 0;
+}
+
+footer {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  padding-top: 60px;
+  width: 100%;
+  height: 229px;
+  background-color: #121212;
+}
+
+.menu_item1 {
+  font-size: 18px;
+  line-height: 24.59px;
+  letter-spacing: -0.03em;
+  margin-left: 60px;
+  text-decoration: none;
+  color: #ffffff;
+  text-align: center;
+}
+
+.menu_item1:hover {
+  color: #ffffff;
+  opacity: 0.5;
+}
+
+.block_item1 {
+  display: flex;
+}
+
+.coper {
+  position: absolute;
+  bottom: 30px;
+  font-size: 20px;
+  line-height: 27.32px;
+  letter-spacing: -0.03em;
+  color: #ffffff;
+  text-align: center;
+  opacity: 50%;
 }
